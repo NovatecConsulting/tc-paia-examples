@@ -1,0 +1,45 @@
+:toc:
+:toc-title:
+:toclevels: 2
+:sectnums:
+
+= Every-Day Examples and Configurations
+
+== kafka
+=== dc-cluster-single
+Contains a docker-compose setup for the following components:
+
+* 1 Zookeeper instance
+* 1 Kafka broker instance
+* 1 Confluent Schema Registry instance
+* 1 Kafka Connect instance
+* 1 ksqlDB Server instance
+
+=== dc-cluster-zk
+Contains a docker-compose setup for the following components:
+
+* 3 Zookeeper instances
+* 3 Kafka broker instances
+* 1 Confluent Schema Registry instance
+* Kafka-Cli
+* Kafkacat
+
+=== helm-charts-community
+Contains helm charts for a Confluent Platform setup, *Community* version:
+
+* Zookeeper
+* Kafka brokers
+* Kafka Connect
+* Confluent Schema Registry
+* Confluent REST Proxy
+* ksqlDB
+
+== rabbitmq
+Contains setup configurations and example java applications for RabbitMQ:
+
+* docker-compose.yaml
+* Dockerfile to enable plugins
+
+
+
+
